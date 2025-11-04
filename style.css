@@ -92,6 +92,11 @@ button:hover {
   background-color: #b04e45;
   border: 1px solid #7a2e28;
 }
+button:focus {
+  outline: none;
+  background-color: #b04e45;
+  border: 1px solid #7a2e28;
+}
 .chatbox {
   position: fixed;
   bottom: 8px;
@@ -108,12 +113,45 @@ button:hover {
   margin: auto;
   width: 60%;
 }
+.chatbox:hover {
+  background-color: #c48f4e;
+}
+.chatbox:focus {
+  outline: none;
+  background-color: #a9743d;
+}
 footer {
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   background-color: #555555;
   color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+a:visited {
+  color: #dddddd;
+  text-decoration: underline dotted;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:focus {
+  outline: none;
+  text-decoration: underline;
+}
+footer p {
+  margin: 5px;
+  font-size: 1rem;
+}
+
 @media (min-width: 768px) {
   .logo {
     font-size: 2.25rem;
