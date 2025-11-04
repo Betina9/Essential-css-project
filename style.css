@@ -4,9 +4,13 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #282828;
 }
+html {
+  scroll-behavior: smooth;
+}
 header {
   background-color: #282828;
   color: whitesmoke;
+  height: 80px;
 }
 .logo {
   font-size: 18px;
