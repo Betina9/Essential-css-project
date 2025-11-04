@@ -45,6 +45,10 @@ p {
   margin: 30px auto;
   padding: 0 20px;
 }
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
 
 .item {
   position: relative;
@@ -103,6 +107,12 @@ button:hover {
 .chatbox-img {
   margin: auto;
   width: 60%;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #555555;
+  color: whitesmoke;
 }
 @media (min-width: 768px) {
   .logo {
